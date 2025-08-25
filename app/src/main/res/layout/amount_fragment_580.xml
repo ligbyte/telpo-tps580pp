@@ -188,7 +188,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
-                        android:text="按功能键"
+                        android:text="按取消键"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
                 </RelativeLayout>
@@ -216,7 +216,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
-                        android:text="按查询键"
+                        android:text="按统计键"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
                 </RelativeLayout>

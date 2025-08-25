@@ -165,17 +165,18 @@ public class KeyEventResolver {
                 case KeyEvent.KEYCODE_CALCULATOR:
                     // 设置
                     return "设置";
+                case android.view.KeyEvent.KEYCODE_BACK:
                 case android.view.KeyEvent.KEYCODE_ESCAPE:
                 case android.view.KeyEvent.KEYCODE_SEARCH:
                     //功能
                     aChar = "功能".toCharArray()[0];
                     // break;
                     return "功能";
-                case android.view.KeyEvent.KEYCODE_BACK:
-                    //取消
-                    aChar = "取消".toCharArray()[0];
-                    // break;
-                    return "取消";
+//                case android.view.KeyEvent.KEYCODE_BACK:
+//                    //取消
+//                    aChar = "取消".toCharArray()[0];
+//                    // break;
+//                    return "取消";
                 case android.view.KeyEvent.KEYCODE_F2:
                     //统计
                     aChar = "统计".toCharArray()[0];

@@ -76,6 +76,7 @@ import com.stkj.cashier.scan.scan.ScanTool
 import com.stkj.cashier.utils.ByteReverser
 import com.stkj.cashier.utils.ParseData
 import com.stkj.cashier.utils.QueueManager
+import com.stkj.cashier.utils.RepeatClickUtils
 import com.stkj.cashier.utils.RkSysTool
 import com.stkj.cashier.utils.SerialNumber
 import com.stkj.cashier.utils.TimeUtils
@@ -1642,6 +1643,13 @@ class MainActivity : BaseActivity<MainViewModel, MainActivityBinding>(), View.On
     @SuppressLint("RestrictedApi")
     override fun dispatchKeyEvent(event: KeyEvent): Boolean {
         try {
+
+
+            if (event.action == KeyEvent.ACTION_UP) {
+                if(RepeatClickUtils.isFastDoubleClick()){
+                    return false
+                }
+            }
 
 //        if (event.keyCode == KeyEvent.KEYCODE_BACK) {
 //            LogUtils.e("按键MainActivity back")
