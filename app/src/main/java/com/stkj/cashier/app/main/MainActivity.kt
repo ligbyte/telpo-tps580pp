@@ -1096,6 +1096,7 @@ class MainActivity : BaseActivity<MainViewModel, MainActivityBinding>(), View.On
         facePassHelper?.setOnInitFacePassListener(object : CBGFacePassHandlerHelper.OnInitFacePassListener {
             override fun onInitSuccess() {
                 //initData()
+                App.initFaceSDKSuccess = true;
             }
 
             override fun onInitError(msg: String) {
@@ -1103,7 +1104,7 @@ class MainActivity : BaseActivity<MainViewModel, MainActivityBinding>(), View.On
 //                CommonDialogUtils.showTipsDialog(this@MainActivity, msg, "知道了") { alertDialogFragment ->
 //                    initData()
 //                }
-
+                App.initFaceSDKSuccess = false;
                 ToastUtils.showLong(msg)
 
             }

@@ -63,6 +63,9 @@ class App : Application() {
         var isNeedCache:Boolean = false
 
         @JvmStatic
+        var initFaceSDKSuccess:Boolean = false
+
+        @JvmStatic
         var imageCache: ByteArray? = null
 
         @JvmStatic

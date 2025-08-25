@@ -10,20 +10,20 @@ object Constants {
      */
     const val isDomain = false
 
+    // 新安县私有化部署
+    const val BASE_OFFICIAL_URL = "https://xaapi.shengtudx.cn/"
+
     // 中医药学校正式
-    const val BASE_OFFICIAL_URL = "https://restaurant.shengtudx.cn/"
+    //const val BASE_OFFICIAL_URL = "https://restaurant.shengtudx.cn/"
     // 汝阳正式
     //const val BASE_OFFICIAL_URL = "http://101.42.54.44:9003"
     // 万基正式
     //const val BASE_OFFICIAL_URL = "https://cater.wanjigroup.com:9997"
 
-    // 国梁电脑
-    //const val BASE_OFFICIAL_URL = "http://10.10.10.101:9003/"
-
     // 测试
-//    const val BASE_OFFICIAL_URL = "http://101.43.252.67:9003/"
+    //  const val BASE_OFFICIAL_URL = "http://101.43.252.67:9003/"
     // 本地
-//    const val BASE_OFFICIAL_URL = "http://192.168.2.197:9003/"
+    // const val BASE_OFFICIAL_URL = "http://192.168.2.197:9003/"
 
     // TODO Bugly 申请的 AppId
     const val BUGLY_APP_ID = "9d0b428b32"

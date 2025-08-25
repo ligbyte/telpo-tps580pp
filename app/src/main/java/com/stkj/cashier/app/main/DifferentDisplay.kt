@@ -778,10 +778,14 @@ class DifferentDisplay : Presentation, CameraManager.CameraListener, View.OnClic
                 isStartFaceScan.set(true)
             }
             MessageEventType.AmountRefundCancel -> {
-                val switchFacePassPay =
-                    SPUtils.getInstance().getBoolean(Constants.SWITCH_FACE_PASS_PAY)
-                if (switchFacePassPay) {
-                    stopFacePassAuth()
+                try {
+                    val switchFacePassPay =
+                        SPUtils.getInstance().getBoolean(Constants.SWITCH_FACE_PASS_PAY)
+                    if (switchFacePassPay) {
+                        stopFacePassAuth()
+                    }
+                }catch (e: Exception){
+
                 }
                 //点击退单按钮按键
                 tvFaceTips.text = "欢迎就餐"

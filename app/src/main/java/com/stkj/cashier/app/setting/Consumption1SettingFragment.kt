@@ -682,6 +682,15 @@ class Consumption1SettingFragment :
                                             ttsSpeak("网络已断开，请检查网络。")
                                             return
                                         }
+
+                                        if (!App.initFaceSDKSuccess) {
+                                            //ttsSpeak(getString(R.string.result_network_unavailable_error))
+                                            ttsSpeak("请激活人脸识别SDK")
+                                            ToastUtils.showLong("请激活人脸识别SDK")
+                                            return
+                                        }
+
+
                                         // 下载人脸
                                         EventBus.getDefault()
                                             .post(MessageEventBean(MessageEventType.ShowLoadingDialog, "下载人脸","Downloading"))
