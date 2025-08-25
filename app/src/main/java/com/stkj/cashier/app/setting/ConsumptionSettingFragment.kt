@@ -8,11 +8,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.PopupWindow
 import android.widget.RadioGroup
-import androidx.core.view.isVisible
-import com.stkj.cashier.util.util.LogUtils
-import com.stkj.cashier.util.util.SPUtils
+import com.stkj.cashier.utils.util.LogUtils
+import com.stkj.cashier.utils.util.SPUtils
 import com.google.gson.Gson
-import com.king.android.ktx.fragment.argument
 import com.stkj.cashier.R
 import com.stkj.cashier.app.base.BaseFragment
 import com.stkj.cashier.app.main.MainActivity
@@ -22,7 +20,6 @@ import com.stkj.cashier.config.MessageEventType
 import com.stkj.cashier.constants.Constants
 import com.stkj.cashier.databinding.*
 import com.stkj.cashier.dict.HomeMenu
-import com.stkj.cashier.util.PopupWindowUtil
 import dagger.hilt.android.AndroidEntryPoint
 import org.greenrobot.eventbus.EventBus
 

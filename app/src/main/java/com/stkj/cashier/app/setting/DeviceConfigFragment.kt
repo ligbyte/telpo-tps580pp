@@ -1,58 +1,36 @@
 package com.stkj.cashier.app.setting
 
-import android.R.interpolator
 import android.os.Bundle
-import androidx.core.view.isVisible
-import com.king.android.ktx.fragment.argument
 import com.stkj.cashier.R
 import com.stkj.cashier.app.base.BaseFragment
 import com.stkj.cashier.app.main.SettingViewModel
 import com.stkj.cashier.databinding.DeviceConfigFragmentBinding
-import com.stkj.cashier.databinding.MenuFragmentBinding
-import com.stkj.cashier.databinding.PasswordFragmentBinding
-import com.stkj.cashier.databinding.StatisticsFragmentBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 import android.graphics.drawable.ColorDrawable
 
 import android.view.LayoutInflater
 import android.view.View
-import android.view.Gravity
 
-import android.R.interpolator.linear
-import android.app.Activity.RESULT_OK
-import android.app.AlertDialog
-import android.app.Notification
 import android.content.Intent
 import android.net.Uri
-import android.os.Build
 import android.os.Environment
 import android.provider.Settings
-import com.stkj.cashier.util.util.SizeUtils.getMeasuredHeight
 
 
 //import com.tencent.bugly.proguard.v
 import android.provider.Settings.System.SCREEN_OFF_TIMEOUT
 import android.widget.*
-import androidx.annotation.RequiresApi
-import com.stkj.cashier.util.util.*
-import com.stkj.cashier.util.util.LogUtils.E
+import com.stkj.cashier.utils.util.*
 import com.google.gson.Gson
-import com.king.app.dialog.AppDialog
-import com.king.app.dialog.AppDialogConfig
-import com.king.app.updater.AppUpdater
-import com.king.app.updater.callback.UpdateCallback
 import com.stkj.cashier.App
 import com.stkj.cashier.BuildConfig
-import com.stkj.cashier.app.splash.SplashActivity
 import com.stkj.cashier.bean.CheckAppVersionBean
 import com.stkj.cashier.bean.MessageEventBean
 import com.stkj.cashier.config.MessageEventType
 import com.stkj.cashier.constants.Constants
-import com.stkj.cashier.util.UpdateService
 import org.greenrobot.eventbus.EventBus
 import java.io.File
-import java.lang.Exception
 import java.util.*
 
 

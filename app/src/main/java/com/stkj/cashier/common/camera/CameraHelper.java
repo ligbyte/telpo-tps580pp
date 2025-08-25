@@ -16,11 +16,9 @@ import androidx.annotation.RequiresApi;
 import androidx.exifinterface.media.ExifInterface;
 
 
-import com.alibaba.fastjson.JSON;
 import com.stkj.cashier.common.core.ActivityWeakRefHolder;
 import com.stkj.cashier.common.storage.StorageHelper;
-import com.stkj.cashier.common.ui.widget.surfaceview.AutoFitSurfaceView;
-import com.stkj.cashier.util.util.ToastUtils;
+import com.stkj.cashier.utils.util.ToastUtils;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -15,15 +15,11 @@ import androidx.annotation.Nullable;
 
 import com.stkj.cashier.App;
 import com.stkj.cashier.R;
-import com.stkj.cashier.bean.MessageEventBean;
 import com.stkj.cashier.common.core.AppManager;
 import com.stkj.cashier.common.ui.widget.surfaceview.AutoFitSurfaceView;
-import com.stkj.cashier.config.MessageEventType;
 import com.stkj.cashier.constants.Constants;
 import com.stkj.cashier.glide.GlideApp;
-import com.stkj.cashier.util.util.SPUtils;
-
-import org.greenrobot.eventbus.EventBus;
+import com.stkj.cashier.utils.util.SPUtils;
 
 /**
  * 人脸识别摄像头布局

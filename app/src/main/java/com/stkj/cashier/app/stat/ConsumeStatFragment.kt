@@ -9,8 +9,8 @@ import com.stkj.cashier.app.main.MainActivity
 import com.stkj.cashier.bean.MessageEventBean
 import com.stkj.cashier.config.MessageEventType
 import com.stkj.cashier.databinding.ConsumeStatFragmentBinding
-import com.stkj.cashier.util.util.EncryptUtils
-import com.stkj.cashier.util.util.LogUtils
+import com.stkj.cashier.utils.util.EncryptUtils
+import com.stkj.cashier.utils.util.LogUtils
 import dagger.hilt.android.AndroidEntryPoint
 
 /**

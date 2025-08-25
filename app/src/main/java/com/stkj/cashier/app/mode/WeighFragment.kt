@@ -4,9 +4,8 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
-import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.stkj.cashier.util.util.*
+import com.stkj.cashier.utils.util.*
 import com.google.gson.Gson
 import com.stkj.cashier.App
 import com.stkj.cashier.R
@@ -14,19 +13,16 @@ import com.stkj.cashier.app.adapter.ConsumeRecordListAdapter
 import com.stkj.cashier.app.base.BaseFragment
 import com.stkj.cashier.app.main.DifferentDisplay
 import com.stkj.cashier.bean.MessageEventBean
-import com.stkj.cashier.bean.TakeMealsListResult
 import com.stkj.cashier.config.MessageEventType
 import com.stkj.cashier.constants.Constants
-import com.stkj.cashier.databinding.AmountFragmentBinding
 import com.stkj.cashier.databinding.WeighFragmentBinding
 import com.stkj.cashier.greendao.biz.CompanyMemberBiz
-import com.stkj.cashier.util.Tools
+import com.stkj.cashier.utils.Tools
 import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.greenrobot.eventbus.EventBus
-import java.math.BigDecimal
 import java.text.DecimalFormat
 import java.util.concurrent.TimeUnit
 

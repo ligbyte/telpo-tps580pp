@@ -1,28 +1,18 @@
 package com.stkj.cashier.app.setting
 
-import android.content.Context
-import android.graphics.Rect
 import android.os.Bundle
-import android.util.Log
 import android.view.View
-import android.view.ViewTreeObserver
-import android.view.inputmethod.InputMethodManager
 import android.widget.LinearLayout
-import android.widget.RelativeLayout.ALIGN_PARENT_BOTTOM
-import androidx.core.view.isVisible
-import com.stkj.cashier.util.util.KeyboardUtils
-import com.stkj.cashier.util.util.SPUtils
-import com.stkj.cashier.util.util.ToastUtils
-import com.king.android.ktx.fragment.argument
+import com.stkj.cashier.utils.util.KeyboardUtils
+import com.stkj.cashier.utils.util.SPUtils
+import com.stkj.cashier.utils.util.ToastUtils
 import com.stkj.cashier.R
 import com.stkj.cashier.app.base.BaseFragment
 import com.stkj.cashier.app.main.SettingViewModel
 import com.stkj.cashier.bean.MessageEventBean
 import com.stkj.cashier.config.MessageEventType
 import com.stkj.cashier.constants.Constants
-import com.stkj.cashier.databinding.MenuFragmentBinding
 import com.stkj.cashier.databinding.PasswordFragmentBinding
-import com.stkj.cashier.databinding.StatisticsFragmentBinding
 import dagger.hilt.android.AndroidEntryPoint
 import org.greenrobot.eventbus.EventBus
 

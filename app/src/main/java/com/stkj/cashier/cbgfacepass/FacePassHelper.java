@@ -31,11 +31,11 @@ import com.stkj.cashier.cbgfacepass.model.FacePassPeopleListInfo;
 import com.stkj.cashier.cbgfacepass.model.SearchFacePassPeopleParams;
 
 
-import com.stkj.cashier.util.rxjava.DefaultObserver;
-import com.stkj.cashier.util.rxjava.RxTransformerUtils;
-import com.stkj.cashier.util.util.GsonUtils;
-import com.stkj.cashier.util.util.TimeUtils;
-import com.stkj.cashier.util.util.ToastUtils;
+import com.stkj.cashier.utils.rxjava.DefaultObserver;
+import com.stkj.cashier.utils.rxjava.RxTransformerUtils;
+import com.stkj.cashier.utils.util.GsonUtils;
+import com.stkj.cashier.utils.util.TimeUtils;
+import com.stkj.cashier.utils.util.ToastUtils;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.greendao.database.Database;

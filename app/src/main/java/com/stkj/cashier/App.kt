@@ -23,8 +23,8 @@ import com.stkj.cashier.common.core.AppManager
 import com.stkj.cashier.component.ComponentAppManager
 import com.stkj.cashier.constants.Constants
 import com.stkj.cashier.glide.GlideAppHelper
-import com.stkj.cashier.util.camera.FacePassCameraType
-import com.stkj.cashier.util.util.CrashHandler
+import com.stkj.cashier.utils.camera.FacePassCameraType
+import com.stkj.cashier.utils.util.CrashHandler
 import dagger.hilt.android.HiltAndroidApp
 import es.dmoral.toasty.Toasty
 import mcv.facepass.FacePassHandler

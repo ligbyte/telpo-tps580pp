@@ -22,7 +22,7 @@ import com.stkj.cashier.common.permissions.request.CameraPermissionRequest;
 import com.stkj.cashier.common.utils.EventBusUtils;
 import com.stkj.cashier.deviceinterface.DeviceManager;
 import com.stkj.cashier.permission.AppPermissionHelper;
-import com.stkj.cashier.util.util.ToastUtils;
+import com.stkj.cashier.utils.util.ToastUtils;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;

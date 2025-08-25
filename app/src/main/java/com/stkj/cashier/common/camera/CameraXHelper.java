@@ -30,7 +30,7 @@ import com.google.common.util.concurrent.ListenableFuture;
 import com.stkj.cashier.common.core.ActivityWeakRefHolder;
 import com.stkj.cashier.common.storage.StorageHelper;
 import com.stkj.cashier.common.utils.CameraUtils;
-import com.stkj.cashier.util.util.ToastUtils;
+import com.stkj.cashier.utils.util.ToastUtils;
 
 import java.io.File;
 import java.util.ArrayList;

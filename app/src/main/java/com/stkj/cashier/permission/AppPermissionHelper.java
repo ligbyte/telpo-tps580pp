@@ -19,7 +19,7 @@ import java.util.List;
 
 import com.stkj.cashier.common.core.ActivityWeakRefHolder;
 import com.stkj.cashier.ui.dialog.CommonAlertDialogFragment;
-import com.stkj.cashier.util.util.IntentUtils;
+import com.stkj.cashier.utils.util.IntentUtils;
 
 /**
  * 应用权限处理类

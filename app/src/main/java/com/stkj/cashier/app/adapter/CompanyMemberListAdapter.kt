@@ -3,13 +3,12 @@ package com.stkj.cashier.app.adapter
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import android.annotation.SuppressLint
-import com.stkj.cashier.util.util.StringUtils
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.stkj.cashier.App
 import com.stkj.cashier.R
 import com.stkj.cashier.bean.db.CompanyMemberdbEntity
 import com.stkj.cashier.glide.GlideApp
-import com.stkj.cashier.util.DesensitizedUtil
+import com.stkj.cashier.utils.DesensitizedUtil
 
 class CompanyMemberListAdapter(data: List<CompanyMemberdbEntity>?) :
     BaseQuickAdapter<CompanyMemberdbEntity, BaseViewHolder>(R.layout.item_face_info, data as MutableList<CompanyMemberdbEntity>?) {

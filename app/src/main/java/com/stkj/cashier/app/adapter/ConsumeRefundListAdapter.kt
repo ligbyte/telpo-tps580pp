@@ -1,7 +1,6 @@
 package com.stkj.cashier.app.adapter
 
 import android.annotation.SuppressLint
-import android.app.Activity
 import android.graphics.Color
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -10,8 +9,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.stkj.cashier.R
 import com.stkj.cashier.bean.ConsumeRefundListBean
-import com.stkj.cashier.util.util.LogUtils
-import me.jessyan.autosize.AutoSize
+import com.stkj.cashier.utils.util.LogUtils
 
 
 class ConsumeRefundListAdapter(data: List<ConsumeRefundListBean.ResultsDTO>?) :

@@ -16,8 +16,8 @@ import androidx.annotation.Nullable;
 
 
 import com.stkj.cashier.R;
-import com.stkj.cashier.util.rxjava.DefaultDisposeObserver;
-import com.stkj.cashier.util.rxjava.RxTransformerUtils;
+import com.stkj.cashier.utils.rxjava.DefaultDisposeObserver;
+import com.stkj.cashier.utils.rxjava.RxTransformerUtils;
 
 import java.util.concurrent.TimeUnit;
 

@@ -3,13 +3,12 @@ package com.stkj.cashier.app.weigh;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
-import android.view.View;
 import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.stkj.cashier.util.util.LogUtils;
+import com.stkj.cashier.utils.util.LogUtils;
 import com.google.gson.Gson;
 
 /**

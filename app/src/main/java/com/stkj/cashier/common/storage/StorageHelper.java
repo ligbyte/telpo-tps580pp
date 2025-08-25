@@ -20,8 +20,8 @@ import com.stkj.cashier.common.storage.model.CacheFileInfo;
 import com.stkj.cashier.common.storage.model.PublicDirFileInfo;
 import com.stkj.cashier.common.utils.AndroidUtils;
 import com.stkj.cashier.common.utils.FileUtils;
-import com.stkj.cashier.util.rxjava.DefaultObserver;
-import com.stkj.cashier.util.rxjava.RxTransformerUtils;
+import com.stkj.cashier.utils.rxjava.DefaultObserver;
+import com.stkj.cashier.utils.rxjava.RxTransformerUtils;
 
 import java.io.File;
 import java.io.FileInputStream;

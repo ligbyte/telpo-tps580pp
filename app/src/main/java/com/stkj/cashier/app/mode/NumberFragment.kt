@@ -5,14 +5,13 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.stkj.cashier.util.util.*
+import com.stkj.cashier.utils.util.*
 import com.google.gson.Gson
 import com.stkj.cashier.App
 import com.stkj.cashier.R
 import com.stkj.cashier.app.adapter.ConsumeRecordListAdapter
 import com.stkj.cashier.app.base.BaseFragment
 import com.stkj.cashier.app.main.DifferentDisplay
-import com.stkj.cashier.bean.ConsumeRecordListBean
 import com.stkj.cashier.bean.MessageEventBean
 import com.stkj.cashier.bean.db.CompanyMemberdbEntity
 import com.stkj.cashier.config.MessageEventType
@@ -24,8 +23,6 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import kotlinx.coroutines.delay
-import mcv.facepass.FacePassException
 import org.greenrobot.eventbus.EventBus
 import java.util.concurrent.TimeUnit
 

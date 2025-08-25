@@ -25,12 +25,11 @@ import com.stkj.cashier.config.MessageEventType
 import com.stkj.cashier.constants.Constants
 import com.stkj.cashier.databinding.Consumption1SettingFragmentBinding
 import com.stkj.cashier.dict.HomeMenu
-import com.stkj.cashier.util.RkSysTool
-import com.stkj.cashier.util.ShellUtils
-import com.stkj.cashier.util.util.LogUtils
-import com.stkj.cashier.util.util.SPUtils
-import com.stkj.cashier.util.util.SpanUtils
-import com.stkj.cashier.util.util.ToastUtils
+import com.stkj.cashier.utils.ShellUtils
+import com.stkj.cashier.utils.util.LogUtils
+import com.stkj.cashier.utils.util.SPUtils
+import com.stkj.cashier.utils.util.SpanUtils
+import com.stkj.cashier.utils.util.ToastUtils
 import dagger.hilt.android.AndroidEntryPoint
 import org.greenrobot.eventbus.EventBus
 

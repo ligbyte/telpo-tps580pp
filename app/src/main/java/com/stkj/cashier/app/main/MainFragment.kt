@@ -2,34 +2,22 @@ package com.stkj.cashier.app.main
 
 import android.os.Bundle
 import android.util.SparseArray
-import android.view.View
-import android.view.ViewGroup
 import androidx.core.util.valueIterator
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.stkj.cashier.util.util.LogUtils
-import com.stkj.cashier.util.util.SPUtils
-import com.king.base.adapter.divider.DividerItemDecoration
-import com.king.image.imageviewer.ImageViewer
-import com.king.image.imageviewer.loader.GlideImageLoader
+import com.stkj.cashier.utils.util.LogUtils
+import com.stkj.cashier.utils.util.SPUtils
 import com.stkj.cashier.R
-import com.stkj.cashier.app.adapter.BannerImageAdapter
-import com.stkj.cashier.app.adapter.BaseBindingAdapter
 import com.stkj.cashier.app.base.BaseFragment
 import com.stkj.cashier.app.mode.AmountFragment
 import com.stkj.cashier.app.mode.NumberFragment
 import com.stkj.cashier.app.mode.PickUpFragment
 import com.stkj.cashier.app.mode.WeighFragment
-import com.stkj.cashier.bean.BannerBean
-import com.stkj.cashier.bean.Bean
 import com.stkj.cashier.bean.MessageEventBean
 import com.stkj.cashier.config.MessageEventType
 import com.stkj.cashier.constants.Constants
 import com.stkj.cashier.databinding.MainFragmentBinding
 import com.stkj.cashier.dict.HomeMenu
-import com.youth.banner.config.IndicatorConfig
-import com.youth.banner.indicator.CircleIndicator
 import dagger.hilt.android.AndroidEntryPoint
 import java.lang.NullPointerException
 

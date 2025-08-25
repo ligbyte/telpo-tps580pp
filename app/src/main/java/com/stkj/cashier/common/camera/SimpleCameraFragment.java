@@ -15,9 +15,9 @@ import com.stkj.cashier.common.ui.fragment.BaseRecyclerFragment;
 import com.stkj.cashier.common.ui.widget.shapelayout.ShapeImageView;
 import com.stkj.cashier.common.utils.FragmentUtils;
 import com.stkj.cashier.glide.GlideApp;
-import com.stkj.cashier.util.rxjava.AutoDisposeUtils;
-import com.stkj.cashier.util.rxjava.DefaultDisposeObserver;
-import com.stkj.cashier.util.util.ToastUtils;
+import com.stkj.cashier.utils.rxjava.AutoDisposeUtils;
+import com.stkj.cashier.utils.rxjava.DefaultDisposeObserver;
+import com.stkj.cashier.utils.util.ToastUtils;
 
 import java.util.concurrent.TimeUnit;
 

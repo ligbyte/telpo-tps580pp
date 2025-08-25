@@ -2,41 +2,29 @@ package com.stkj.cashier.app.setting
 
 import android.app.AlertDialog
 import android.os.Bundle
-import android.view.Gravity
 import android.view.View
-import android.view.Window
-import android.view.WindowManager
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import androidx.core.view.isVisible
-import com.stkj.cashier.util.util.ConvertUtils
-import com.stkj.cashier.util.util.ScreenUtils
-import com.king.android.ktx.fragment.argument
+import com.stkj.cashier.utils.util.ScreenUtils
 import com.stkj.cashier.R
 import com.stkj.cashier.app.base.BaseFragment
 import com.stkj.cashier.app.main.SettingViewModel
 import com.stkj.cashier.databinding.*
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.*
-import androidx.core.content.ContextCompat.getSystemService
 
-import android.app.ActivityManager
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import android.content.Intent.FLAG_ACTIVITY_CLEAR_TOP
-import android.graphics.Color
 import android.os.Process
-import android.provider.Settings
-import com.stkj.cashier.util.util.BarUtils
-import com.stkj.cashier.util.util.LogUtils
+import com.stkj.cashier.utils.util.LogUtils
 //import com.common.api.system.SystemApiUtil
 //import com.huayi.hgt.hyznjar.CustomAPI
 import com.jakewharton.processphoenix.ProcessPhoenix
 import com.stkj.cashier.App
-import com.stkj.cashier.app.splash.SplashActivity
+
 //import com.stkj.cashier.util.SystemApiUtil
 //import com.telpo.tps550.api.util.LEDUtil
 

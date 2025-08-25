@@ -15,7 +15,7 @@ import com.stkj.cashier.common.core.AppManager;
 import com.stkj.cashier.common.permissions.base.BasePermissionRequest;
 import com.stkj.cashier.common.permissions.callback.PermissionCallback;
 import com.stkj.cashier.common.ui.dialog.AppAlertDialog;
-import com.stkj.cashier.util.util.IntentUtils;
+import com.stkj.cashier.utils.util.IntentUtils;
 
 import java.util.ArrayList;
 import java.util.List;

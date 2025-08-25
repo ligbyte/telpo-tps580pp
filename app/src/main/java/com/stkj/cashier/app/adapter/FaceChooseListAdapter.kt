@@ -1,7 +1,6 @@
 package com.stkj.cashier.app.adapter
 
 import android.annotation.SuppressLint
-import android.util.Log
 import android.view.View
 import android.widget.ImageView
 import android.widget.RelativeLayout
@@ -11,7 +10,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.stkj.cashier.R
 import com.stkj.cashier.bean.FaceChooseItemEntity
-import com.stkj.cashier.util.StarUtils
+import com.stkj.cashier.utils.StarUtils
 
 
 class FaceChooseListAdapter(data: List<FaceChooseItemEntity>?) :

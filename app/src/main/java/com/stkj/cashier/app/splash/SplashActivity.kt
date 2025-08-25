@@ -19,8 +19,8 @@ import com.stkj.cashier.R
 import com.stkj.cashier.app.base.BaseActivity
 import com.stkj.cashier.app.main.MainActivity
 import com.stkj.cashier.databinding.SplashActivityBinding
-import com.stkj.cashier.util.util.EncryptUtils
-import com.stkj.cashier.util.util.LogUtils
+import com.stkj.cashier.utils.util.EncryptUtils
+import com.stkj.cashier.utils.util.LogUtils
 import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable

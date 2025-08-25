@@ -5,8 +5,7 @@ import android.speech.tts.TextToSpeech
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import com.alibaba.fastjson.JSON
-import com.stkj.cashier.util.util.LogUtils
-import com.stkj.cashier.util.util.SPUtils
+import com.stkj.cashier.utils.util.LogUtils
 import com.google.gson.Gson
 import com.king.base.util.SystemUtils
 import com.stkj.cashier.App
@@ -15,7 +14,7 @@ import com.stkj.cashier.app.base.BaseModel
 import com.stkj.cashier.app.base.BaseViewModel
 import com.stkj.cashier.bean.*
 import com.stkj.cashier.config.MessageEventType
-import com.stkj.cashier.util.util.GsonUtils
+import com.stkj.cashier.utils.util.GsonUtils
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
 import org.greenrobot.eventbus.EventBus

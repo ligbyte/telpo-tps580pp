@@ -9,8 +9,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.stkj.cashier.cbgfacepass.net.callback.RetrofitConvertJsonListener;
 import com.stkj.cashier.cbgfacepass.net.okhttp.OkHttpManager;
 import com.stkj.cashier.cbgfacepass.net.retrofit.jackson.JacksonConverterFactory;
-import com.stkj.cashier.util.rxjava.RxJava3CallAdapterFactory;
-import com.stkj.cashier.util.rxjava.ScalarsConverterFactory;
+import com.stkj.cashier.utils.rxjava.RxJava3CallAdapterFactory;
+import com.stkj.cashier.utils.rxjava.ScalarsConverterFactory;
 
 import java.util.HashMap;
 

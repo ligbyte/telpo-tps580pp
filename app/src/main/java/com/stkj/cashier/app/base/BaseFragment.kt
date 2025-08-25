@@ -11,8 +11,7 @@ import android.widget.TextView
 import androidx.annotation.StringRes
 import androidx.core.app.ActivityOptionsCompat
 import androidx.databinding.ViewDataBinding
-import com.stkj.cashier.util.util.LogUtils
-import com.stkj.cashier.util.util.SPUtils
+import com.stkj.cashier.utils.util.LogUtils
 import com.king.base.util.StringUtils
 import com.king.frame.mvvmframe.base.BaseFragment
 import com.king.frame.mvvmframe.base.BaseModel
@@ -22,13 +21,7 @@ import com.stkj.cashier.R
 import com.stkj.cashier.app.home.HomeActivity
 import com.stkj.cashier.bean.MessageEventBean
 import com.stkj.cashier.constants.Constants
-import com.stkj.cashier.util.RandomStringGenerator
 import es.dmoral.toasty.Toasty
-import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
-import io.reactivex.rxjava3.core.Completable
-import io.reactivex.rxjava3.schedulers.Schedulers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode

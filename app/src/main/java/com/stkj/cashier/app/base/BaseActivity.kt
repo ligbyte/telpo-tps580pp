@@ -36,8 +36,8 @@ import com.stkj.cashier.common.utils.ActivityUtils
 import com.stkj.cashier.common.utils.FragmentUtils
 import com.stkj.cashier.common.utils.StatusBarUtils
 import com.stkj.cashier.constants.Constants
-import com.stkj.cashier.util.util.BarUtils
-import com.stkj.cashier.util.util.LogUtils
+import com.stkj.cashier.utils.util.BarUtils
+import com.stkj.cashier.utils.util.LogUtils
 import es.dmoral.toasty.Toasty
 
 /**

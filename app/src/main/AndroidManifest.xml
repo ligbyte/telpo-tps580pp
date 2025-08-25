@@ -110,14 +110,14 @@
             tools:ignore="DiscouragedApi" />
 
         <activity
-            android:name="com.stkj.cashier.util.util.UtilsTransActivity4MainProcess"
+            android:name="com.stkj.cashier.utils.util.UtilsTransActivity4MainProcess"
             android:exported="false"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/ActivityTranslucent"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
 
         <activity
-            android:name="com.stkj.cashier.util.util.UtilsTransActivity"
+            android:name="com.stkj.cashier.utils.util.UtilsTransActivity"
             android:exported="false"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:multiprocess="true"
@@ -125,7 +125,7 @@
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
 
         <provider
-            android:name="com.stkj.cashier.util.util.UtilsFileProvider"
+            android:name="com.stkj.cashier.utils.util.UtilsFileProvider"
             android:authorities="${applicationId}.utilcode.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
@@ -135,7 +135,7 @@
         </provider>
 
         <service
-            android:name="com.stkj.cashier.util.util.MessengerUtils$ServerService"
+            android:name="com.stkj.cashier.utils.util.MessengerUtils$ServerService"
             android:exported="false">
             <intent-filter>
                 <action android:name="${applicationId}.messenger" />
@@ -143,7 +143,7 @@
         </service>
         
         <receiver
-            android:name="com.stkj.cashier.util.BootCompleteReceiver"
+            android:name="com.stkj.cashier.utils.BootCompleteReceiver"
             android:enabled="true"
             android:exported="true"
             android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
@@ -178,7 +178,7 @@
 <!--            </intent-filter>-->
         </receiver>
         <service
-            android:name=".util.UpdateService"
+            android:name=".utils.UpdateService"
             android:enabled="true" />
         <provider
             android:name="androidx.core.content.FileProvider"

@@ -4,16 +4,12 @@ import android.annotation.SuppressLint
 import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Bundle
-import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.stkj.cashier.util.util.EncryptUtils
-import com.stkj.cashier.util.util.LogUtils
-import com.stkj.cashier.charting.components.AxisBase
+import com.stkj.cashier.utils.util.EncryptUtils
+import com.stkj.cashier.utils.util.LogUtils
 import com.stkj.cashier.charting.components.Legend
-import com.king.android.ktx.fragment.argument
 import com.stkj.cashier.R
 import com.stkj.cashier.app.base.BaseFragment
-import com.stkj.cashier.databinding.MenuFragmentBinding
 import com.stkj.cashier.databinding.StatisticsFragmentBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -26,15 +22,10 @@ import com.stkj.cashier.charting.components.XAxis.XAxisPosition
 
 import com.stkj.cashier.charting.components.XAxis
 import com.stkj.cashier.charting.data.*
-import com.stkj.cashier.charting.formatter.DefaultAxisValueFormatter
 import com.stkj.cashier.charting.formatter.IAxisValueFormatter
-import com.stkj.cashier.charting.formatter.IValueFormatter
-import com.stkj.cashier.charting.utils.ViewPortHandler
 import com.google.gson.Gson
 import com.stkj.cashier.App
-import com.stkj.cashier.app.adapter.ConsumeRecordListAdapter
 import com.stkj.cashier.app.adapter.StatisticsRecordListAdapter
-import java.util.*
 import kotlin.collections.ArrayList
 
 

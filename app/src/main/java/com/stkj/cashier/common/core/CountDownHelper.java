@@ -5,8 +5,8 @@ import android.app.Activity;
 import androidx.annotation.NonNull;
 
 
-import com.stkj.cashier.util.rxjava.DefaultDisposeObserver;
-import com.stkj.cashier.util.rxjava.RxTransformerUtils;
+import com.stkj.cashier.utils.rxjava.DefaultDisposeObserver;
+import com.stkj.cashier.utils.rxjava.RxTransformerUtils;
 
 import java.util.HashSet;
 import java.util.Set;

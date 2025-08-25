@@ -14,7 +14,7 @@ import com.stkj.cashier.cbgfacepass.model.CBGFacePassRecognizeResult;
 import com.stkj.cashier.cbgfacepass.model.RecognizeData;
 import com.stkj.cashier.common.core.ActivityWeakRefHolder;
 import com.stkj.cashier.common.storage.StorageHelper;
-import com.stkj.cashier.util.util.ToastUtils;
+import com.stkj.cashier.utils.util.ToastUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -23,7 +23,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;

@@ -12,7 +12,7 @@ import com.stkj.cashier.common.ui.adapter.CommonRecyclerAdapter;
 import com.stkj.cashier.common.ui.fragment.BaseDialogFragment;
 import com.stkj.cashier.common.ui.widget.shapelayout.ShapeTextView;
 import com.stkj.cashier.model.CommonSelectItem;
-import com.stkj.cashier.util.util.ToastUtils;
+import com.stkj.cashier.utils.util.ToastUtils;
 
 import java.util.List;
 

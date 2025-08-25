@@ -10,7 +10,7 @@ import androidx.lifecycle.LifecycleOwner;
 
 
 import com.stkj.cashier.app.base.BaseActivity;
-import com.stkj.cashier.util.util.ActivityUtils;
+import com.stkj.cashier.utils.util.ActivityUtils;
 
 import java.lang.ref.WeakReference;
 
